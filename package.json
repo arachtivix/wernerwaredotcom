@@ -1,0 +1,24 @@
+{
+  "name": "wernerware.com",
+  "version": "0.0.1",
+  "description": "Website of Wernerware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "software",
+    "developer",
+    "web",
+    "services",
+    "angular",
+    "sites",
+    "java",
+    "developer"
+  ],
+  "author": "Daniel Werner",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
