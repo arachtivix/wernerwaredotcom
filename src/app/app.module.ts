@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent }  from './app.component';
 
 @NgModule({
-  imports:      [ 
+  imports: [ 
     BrowserModule,
     RouterModule.forRoot([
       {
