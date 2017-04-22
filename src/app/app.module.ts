@@ -2,6 +2,7 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MainContentComponent } from './main-content.component';
 import { RouterModule } from '@angular/router';
+import { WernerwareCarousel } from './carousel/carousel.component';
 
 import { AppComponent }  from './app.component';
 
@@ -18,10 +19,11 @@ import { AppComponent }  from './app.component';
         path: 'main',
         component: MainContentComponent
       }
-    ]) 
+    ])
   ],
   declarations: [ 
     AppComponent,
+    WernerwareCarousel,
     MainContentComponent 
   ],
   bootstrap:    [ AppComponent ]
