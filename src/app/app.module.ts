@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MainContentComponent } from './main-content.component';
 import { RouterModule } from '@angular/router';
 import { WernerwareCarousel } from './carousel/carousel.component';
+import { AboutComponent } from './about/about.component';
 
 import { AppComponent }  from './app.component';
 
@@ -18,13 +19,18 @@ import { AppComponent }  from './app.component';
       {
         path: 'main',
         component: MainContentComponent
+      },
+      {
+        path: 'about',
+        component: AboutComponent
       }
     ])
   ],
   declarations: [ 
     AppComponent,
     WernerwareCarousel,
-    MainContentComponent 
+    MainContentComponent,
+    AboutComponent
   ],
   bootstrap:    [ AppComponent ]
 })
