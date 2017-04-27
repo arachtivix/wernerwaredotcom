@@ -24,7 +24,7 @@ import { AppComponent }  from './app.component';
         path: 'about',
         component: AboutComponent
       }
-    ])
+    ], { useHash: true })
   ],
   declarations: [ 
     AppComponent,
