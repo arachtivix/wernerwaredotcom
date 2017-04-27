@@ -38,15 +38,15 @@ gulp.task("resources", () => {
  */
 gulp.task("libs", () => {
     return gulp.src([
-            'core-js/client/shim.min.js',
-            'systemjs/dist/system-polyfills.js',
-            'systemjs/dist/system.src.js',
-            'reflect-metadata/Reflect.js',
             'rxjs/**/*.js',
-            'zone.js/dist/**',
+            'systemjs/dist/system.src.js',
+            'zone.js/dist/zone.js',
+            'systemjs/dist/system.src.js',
+            'zone.js/dist/zone.js',
+            'core-js/client/shim.min.js',
             '@angular/**/bundles/**'
         ], {cwd: "node_modules/**"}) /* Glob required here. */
-        .pipe(gulp.dest("build/lib"));
+        .pipe(gulp.dest("build/node_modules"));
 });
 
 /**
