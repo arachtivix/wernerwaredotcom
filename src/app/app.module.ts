@@ -4,6 +4,7 @@ import { MainContentComponent } from './main-content.component';
 import { RouterModule } from '@angular/router';
 import { WernerwareCarousel } from './carousel/carousel.component';
 import { AboutComponent } from './about/about.component';
+import { WernerwareTabs } from './navbar/tabs.component';
 
 import { AppComponent }  from './app.component';
 
@@ -30,7 +31,8 @@ import { AppComponent }  from './app.component';
     AppComponent,
     WernerwareCarousel,
     MainContentComponent,
-    AboutComponent
+    AboutComponent,
+    WernerwareTabs
   ],
   bootstrap:    [ AppComponent ]
 })
