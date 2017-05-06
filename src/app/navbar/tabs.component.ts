@@ -33,9 +33,7 @@ class WernerwareTab {
 
 const TABS: WernerwareTab[] = [
     {index: 0, label: 'Home', link: '/main', css: 'active'},
-    {index: 1, label: 'About', link: '/about', css: ''},
-    {index: 1, label: 'Projects', link: '/projects', css: ''},
-    {index: 1, label: 'Contact', link: '/contact', css: ''}
+    {index: 1, label: 'About', link: '/about', css: ''}
 ];
 
 let active: number = 0;
